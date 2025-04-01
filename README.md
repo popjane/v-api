@@ -75,13 +75,14 @@
 | --- | --- | --- |
 |MY_MEMORY_ENABLED|false|内存缓存，只同步主从节点的`Option`配置：由于`MEMORY_CACHE_ENABLED`会造成渠道的启用禁用以及增删模型都不是实时的，因此可单独配置该参数。与`MEMORY_CACHE_ENABLED`二选一。高并发用户不建议开启。|
 |MY_REDIS|false|该模式（不缓存用户额度）。与`REDIS_CONN_STRING`二选一。唯一区别是预扣费时是从数据库读取用户余额而并非Redis。高并发用户不建议开启。|
-|VAPI_KEY|-|（必须）系统授权令牌：用于验证VAPI系统授权|
-|VAPI_SECRET|-|（必须）系统授权秘钥：用于验证VAPI系统授权|
 |S3_BUCKET|-|S3存储桶名称，站内上传图片、文件配置，任意的支持aws-s3的存储都支持|
 |S3_KEY_ID|-|S3存储桶key，站内上传图片、文件配置，任意的支持aws-s3的存储都支持|
 |S3_KEY_SECRET|-|S3存储桶secret，站内上传图片、文件配置，任意的支持aws-s3的存储都支持|
 |S3_ENDPOINT|-|S3存储桶endpoint，站内上传图片、文件配置，任意的支持aws-s3的存储都支持|
 |UPDATE_TASK|true|是否更新Task异步任务，若无任务模型，可关闭该配置，仅需在主节点配置即可|
+|VAPI_KEY|-|（必须）系统授权令牌：用于验证VAPI系统授权|
+|VAPI_SECRET|-|（必须）系统授权秘钥：用于验证VAPI系统授权|
+|HOSTNAME|-|容器别名，用于区别系统授权后的各容器名称|
 
 ## 相关截图
 
