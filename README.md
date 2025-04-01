@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/popjane/v-api"><img src="./images/logo.png" width="125" height="125" alt="v-api"></a>
+  <a href="https://github.com/popjane/v-api"><img src="./images/logo.svg" width="125" height="125" alt="v-api"></a>
 </p>
 
 <div align="center">
