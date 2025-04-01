@@ -11,8 +11,8 @@
 </div>
 
 > [!NOTE]
-> 本项目为闭源项目，仅支持授权使用，请知晓！
-> 本项目前端UI基于[semi.design](https://semi.design/zh-CN/start/introduction)，后端基于[one-api](https://github.com/songquanpeng/one-api)、部分功能来自[new-api](https://github.com/Calcium-Ion/new-api)
+> 本项目为闭源项目，仅支持授权使用！
+> 前端UI基于[semi.design](https://semi.design/zh-CN/start/introduction)，后端基于[one-api](https://github.com/songquanpeng/one-api)、部分功能来自[new-api](https://github.com/Calcium-Ion/new-api)
 >
 > 👉 [项目演示](https://api.v3.cm/)
 
